@@ -93,6 +93,7 @@ body {
 
     td {
         width: 42.5%;
+        padding-top: 10px;
     }
 
     button.decrease, button.increase {

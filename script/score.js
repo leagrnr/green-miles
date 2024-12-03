@@ -4,16 +4,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     playerIds.forEach(id => {
         const playerName = localStorage.getItem(id) || 'Unknown Player';
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${playerName}</td>
-            <td>
-                <button class="decrease" data-id="${id}">-</button>
-                <span id="${id}-score">0</span>
-                <button class="increase" data-id="${id}">+</button>
-            </td>
-        `;
-        tbody.appendChild(row);
+        if (playerName !== 'Unknown Player') {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${playerName}</td>
+                <td>
+                    <button class="decrease" data-id="${id}">-</button>
+                    <span id="${id}-score">0</span>
+                    <button class="increase" data-id="${id}">+</button>
+                </td>
+            `;
+            tbody.appendChild(row);
+        }
     });
 
     tbody.addEventListener('click', (event) => {

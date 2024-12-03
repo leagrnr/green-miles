@@ -10,24 +10,25 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     });
 
-    players.sort((a, b) => b.score - a.score);
-
-    players.forEach((player, index) => {
-        setTimeout(() => {
-            const row = document.createElement('tr');
-            let medal = '';
-            if (index === 0) {
-                medal = '🥇';
-            } else if (index === 1) {
-                medal = '🥈';
-            } else if (index === 2) {
-                medal = '🥉';
-            }
-            row.innerHTML = `
-                <td>${medal} ${player.name}</td>
-                <td>${player.score}</td>
-            `;
-            tbody.appendChild(row);
-        }, index * 100);
-    });
+    players
+        .filter(player => player.name !== 'Unknown Player')
+        .sort((a, b) => b.score - a.score)
+        .forEach((player, index) => {
+            setTimeout(() => {
+                const row = document.createElement('tr');
+                let medal = '';
+                if (index === 0) {
+                    medal = '🥇';
+                } else if (index === 1) {
+                    medal = '🥈';
+                } else if (index === 2) {
+                    medal = '🥉';
+                }
+                row.innerHTML = `
+                    <td>${medal} ${player.name}</td>
+                    <td>${player.score}</td>
+                `;
+                tbody.appendChild(row);
+            }, index * 100);
+        });
 });
