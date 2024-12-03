@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "question": "Who most often uses public transport or an ecological mode of transport (cycling, walking) ?"
+  },
+  {
+    "id": 2,
+    "question": "Who systematically sorts their waste at home ?"
+  },
+  {
+    "id": 3,
+    "question": "Who consumes the least plastic on a daily basis ?"
+  },
+  {
+    "id": 4,
+    "question": "Who systematically turns off unused lights and appliances to save energy ?"
+  },
+  {
+    "id": 5,
+    "question": "Who most often buys local or seasonal products ?"
+  },
+  {
+    "id": 6,
+    "question": "Who most often buys second-hand products ?"
+  },
+  {
+    "id": 7,
+    "question": "Who most often buys organic products ?"
+  }
+]

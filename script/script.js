@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const playerInputs = document.querySelectorAll('#form-player input[type="text"]');
     const form = document.getElementById('form-player');
+    const resetButton = document.getElementById('reset');
 
-    // Load saved names on page load
     playerInputs.forEach(input => {
         const savedName = localStorage.getItem(input.id);
         if (savedName) {
@@ -10,22 +10,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 
-    // Save names on form submission
     form.addEventListener('submit', (event) => {
-        event.preventDefault(); // Prevent form from submitting
+        event.preventDefault();
         playerInputs.forEach(input => {
             localStorage.setItem(input.id, input.value);
         });
-        logSavedNames();
+        window.location.href = './choice.html';
     });
 
-    function logSavedNames() {
-        console.clear();
+    resetButton.addEventListener('click', (event) => {
+        localStorage.clear();
         playerInputs.forEach(input => {
-            const savedName = localStorage.getItem(input.id);
-            if (savedName) {
-                console.log(`${input.name}: ${savedName}`);
-            }
+            localStorage.removeItem(input.id);
+            input.value = '';
         });
-    }
+    });
 });
