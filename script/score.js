@@ -28,7 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 score -= 25;
             }
 
+            if (score >= 1000) {
+                const playerName = localStorage.getItem(playerId) || 'Unknown Player';
+                if (confirm(`${playerName} a-t-il les 1000 points?`)) {
+                    window.location.href = 'podium.html';
+                } else {
+                    score = 975;
+                }
+            }
+
             scoreElement.textContent = score;
+            localStorage.setItem(`${playerId}-score`, score);
         }
     });
 });
