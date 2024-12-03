@@ -78,4 +78,42 @@ body {
         background-color: #0fbf00;
         color: white;
     }
+
+    /*score.html*/
+
+    table {
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        width: 42.5%;
+    }
+
+    button.decrease, button.increase {
+        background-color: white;
+        color: #da2323;
+        border: 2px solid #da2323;
+        border-radius: 50%;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+
+    button.increase {
+        color: #0fbf00;
+        border-color: #0fbf00;
+    }
+
+    span[id$="-score"] {
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        font-size: 16px;
+    }
 }

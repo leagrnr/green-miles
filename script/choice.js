@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (playerName) {
             const listItem = document.createElement('button');
             listItem.textContent = playerName;
+            listItem.addEventListener('click', () => {
+                 window.location.href = './score.html';
+            });
             namesList.appendChild(listItem);
         }
     });
