@@ -9,6 +9,20 @@ body {
     padding: 0;
 }
 
+table {
+    width: 80vw;
+    display: block;
+    margin: auto;
+    table-layout: fixed;
+}
+
+th, td {
+    width: 40vw;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 @media (max-width: 600px) {
     h1, h2 {
         text-align: center;
