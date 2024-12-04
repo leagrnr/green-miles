@@ -1,13 +1,14 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+    // Clear localStorage on page load
+    localStorage.clear();
+
     const playerInputs = document.querySelectorAll('#form-player input[type="text"]');
     const form = document.getElementById('form-player');
     const resetButton = document.getElementById('reset');
 
+    // Clear input values on page load
     playerInputs.forEach(input => {
-        const savedName = localStorage.getItem(input.id);
-        if (savedName) {
-            input.value = savedName;
-        }
+        input.value = '';
     });
 
     form.addEventListener('submit', (event) => {
