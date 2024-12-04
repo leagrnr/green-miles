@@ -23,7 +23,7 @@ th, td {
     box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     h1, h2 {
         text-align: center;
     }
