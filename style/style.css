@@ -111,6 +111,31 @@ body {
         border-color: #0fbf00;
     }
 
+    #point {
+        margin-top: 5vh;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    button.button:active {
+        background-color: #0fbf00;
+        color: white;
+    }
+
+    button.button {
+        margin-top: 1vh;
+        background-color: white;
+        color: black;
+        border: 2px solid #0fbf00;
+        border-radius:20px ;
+        padding: 5px;
+        width: 40%;
+    }
+
     span[id$="-score"] {
         display: inline-block;
         width: 50px;

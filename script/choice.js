@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const listItem = document.createElement('button');
             listItem.textContent = playerName;
             listItem.addEventListener('click', () => {
-                 window.location.href = './score.html';
+                localStorage.setItem('firstPlayer', id);
+                window.location.href = './score.html';
             });
             namesList.appendChild(listItem);
         }
