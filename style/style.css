@@ -82,18 +82,18 @@ body {
     /*score.html*/
 
     table {
-        width: 75%;
+        width: 80vw;
         display: block;
         margin: auto;
+        table-layout: fixed;
     }
 
-    th {
-        text-align: left;
-    }
-
-    td {
-        width: 42.5%;
-        padding-top: 10px;
+    th, td {
+        width: 40vw;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #000;
     }
 
     button.decrease, button.increase {
