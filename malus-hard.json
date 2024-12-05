@@ -1,0 +1,9 @@
+[
+  {
+    "id" : 4,
+    "question" : "Quelle est la capitale de l'Espagne ?",
+    "options" : ["Paris", "Londres", "Berlin", "Madrid"],
+    "answer" : "Madrid",
+    "explanation" : "Madrid est la capitale de l'Espagne."
+  }
+]

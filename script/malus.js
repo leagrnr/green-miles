@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('malus.json')
+    const urlParams = new URLSearchParams(window.location.search);
+    const difficulty = urlParams.get('difficulty') || 'easy';
+
+    fetch(`malus-${difficulty}.json`)
         .then(response => response.json())
         .then(data => {
             const randomQuestion = data[Math.floor(Math.random() * data.length)];
@@ -17,8 +20,8 @@ function displayQuestion(question) {
 
     questionDiv.textContent = question.question;
     optionsDiv.innerHTML = '';
-    explanationDiv.textContent = ''; // Clear previous explanation
-    redirectDiv.style.display = 'none'; // Hide redirect button initially
+    explanationDiv.textContent = '';
+    redirectDiv.style.display = 'none';
 
     question.options.forEach(option => {
         const button = document.createElement('button');

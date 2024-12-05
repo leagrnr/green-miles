@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playerIds = ['player1', 'player2', 'player3', 'player4'];
     const tbody = document.querySelector('tbody');
     const players = [];
-    let incrementValue = 25; // Default increment value
+    let incrementValue = 25;
 
     if (firstPlayerId) {
         const firstPlayerName = localStorage.getItem(firstPlayerId) || 'Unknown Player';
@@ -76,8 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
         set25Button.classList.remove('active');
     });
 
-    const malusButton = document.getElementById('malus');
-    malusButton.addEventListener('click', () => {
-        window.location.href = 'malus.html';
+    const easyButton = document.getElementById('easy');
+    const hardButton = document.getElementById('hard');
+
+    easyButton.addEventListener('click', () => {
+        window.location.href = 'malus.html?difficulty=easy';
+    });
+
+    hardButton.addEventListener('click', () => {
+        window.location.href = 'malus.html?difficulty=hard';
     });
 });
