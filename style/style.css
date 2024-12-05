@@ -223,13 +223,17 @@ body {
     }
 
     #go-to-quiz {
-        margin-top: 5vh;
+        margin-top: 3vh;
         background-color: white;
         color: black;
         border: 2px solid #0fbf00;
         border-radius:20px ;
         padding: 5px;
         width: 50vw;
+    }
+
+    #time {
+        margin-top: 5vh;
     }
 
     #go-to-quiz:active {
