@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "question": "What is the capital of France?",
-    "options": ["London", "New York", "Paris", "Dublin"],
-    "explanation": "The capital of France is Paris",
-    "answer": "Paris"
+    "question": "How much toxic waste in landfill does e-waste account for ?",
+    "explanation": "E-waste accounts for 70% of toxic waste in landfills"
   },
   {
     "id": 2,
-    "question": "Who is CEO of Tesla?",
-    "options": ["Jeff Bezos", "Elon Musk", "Bill Gates", "Tony Stark"],
-    "explanation": "The CEO of Tesla is Elon Musk",
-    "answer": "Elon Musk"
+    "question": "What is the French corporation with the second highest carbon footprint ?",
+    "explanation": "Société Général is the French corporation with the second highest carbon footprint"
   },
   {
     "id": 3,
-    "question": "The iPhone was created by which company?",
-    "options": ["Apple", "Intel", "Amazon", "Microsoft"],
-    "explanation": "The iPhone was created by Apple",
-    "answer": "Apple"
+    "question": "What percentage of Earth's oxygen does the Amazon rainforest contribute to ?",
+    "explanation": "The Amazon rainforest contributes to 20% of Earth's oxygen"
   },
   {
     "id": 4,
-    "question": "How many Harry Potter books are there?",
-    "options": ["1", "4", "6", "7"],
-    "explanation": "There are 7 Harry Potter books",
-    "answer": "7"
+    "question": "What sector pollutes the most ?",
+    "explanation": "The energy sector pollutes the most"
   },
   {
-    "question": "What is the capital of Spain?",
-    "options": ["Paris", "Lisbon", "Madrid", "Dublin"],
-    "explanation": "The capital of Spain is Madrid",
-    "answer": "Madrid"
+    "id": 5,
+    "question": "What are the 3 main gases composing our atmosphere ?",
+    "explanation": "The 3 main gases composing our atmosphere are nitrogen, oxygen and argon"
   },
   {
-    "question": "What is the capital of Italy?",
-    "options": ["Rome", "Milan", "Venice", "Florence"],
-    "explanation": "The capital of Italy is Rome",
-    "answer": "Rome"
+    "id": 6,
+    "question": "What percentage of workers are fully-remote as of 2023 ?",
+    "explanation": "12.2%"
+  },
+  {
+    "id": 7,
+    "question": "How many years does it roughly take for a plastic bottle to decompose ?",
+    "explanation": "1000 years"
+  },
+  {
+    "id": 8,
+    "question": "What percentage of carbon emitted by humans does the oceans absorb \n?\n",
+    "explanation": "The oceans absorb 30% of carbon emitted by humans"
   }
 ]

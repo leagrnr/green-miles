@@ -7,6 +7,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const optionsElement = quizContainer.querySelector('.options');
             const explanationElement = quizContainer.querySelector('.explanation');
             const nextButton = document.getElementById('next-question');
+            const showAnswerButton = document.createElement('button');
+
+            showAnswerButton.textContent = 'Show the answer';
+            showAnswerButton.style.margin = '20px auto';
+            showAnswerButton.style.padding = '10px 20px';
+            showAnswerButton.style.backgroundColor = 'white';
+            showAnswerButton.style.border = '2px solid #0fbf00';
+            showAnswerButton.style.borderRadius = '20px';
+            showAnswerButton.style.cursor = 'pointer';
+            showAnswerButton.style.textAlign = 'center';
+            showAnswerButton.style.display = 'block';
+            quizContainer.appendChild(showAnswerButton);
 
             nextButton.style.display = 'none';
             nextButton.style.margin = '20px auto';
@@ -24,7 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 questionElement.textContent = questionData.question;
                 optionsElement.innerHTML = '';
                 explanationElement.textContent = '';
+                explanationElement.style.display = 'none';
                 nextButton.style.display = 'none';
+                showAnswerButton.style.display = 'block';
 
                 questionData.options.forEach(option => {
                     const button = document.createElement('button');
@@ -49,11 +63,27 @@ document.addEventListener('DOMContentLoaded', () => {
                             });
                         }
                         explanationElement.textContent = questionData.explanation;
+                        explanationElement.style.display = 'block';
                         nextButton.style.display = 'block';
+                        showAnswerButton.style.display = 'none';
                     });
                     optionsElement.appendChild(button);
                 });
             }
+
+            showAnswerButton.addEventListener('click', () => {
+                const buttons = optionsElement.querySelectorAll('button');
+                buttons.forEach(btn => {
+                    if (btn.textContent === data[currentQuestionIndex].answer) {
+                        btn.style.backgroundColor = 'green';
+                        btn.style.color = 'white';
+                    }
+                });
+                explanationElement.textContent = data[currentQuestionIndex].explanation;
+                explanationElement.style.display = 'block';
+                nextButton.style.display = 'block';
+                showAnswerButton.style.display = 'none';
+            });
 
             nextButton.addEventListener('click', () => {
                 currentQuestionIndex++;
