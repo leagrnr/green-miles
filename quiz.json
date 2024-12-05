@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": ["London", "New York", "Paris", "Dublin"],
+    "explanation": "The capital of France is Paris",
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Who is CEO of Tesla?",
+    "options": ["Jeff Bezos", "Elon Musk", "Bill Gates", "Tony Stark"],
+    "explanation": "The CEO of Tesla is Elon Musk",
+    "answer": "Elon Musk"
+  },
+  {
+    "id": 3,
+    "question": "The iPhone was created by which company?",
+    "options": ["Apple", "Intel", "Amazon", "Microsoft"],
+    "explanation": "The iPhone was created by Apple",
+    "answer": "Apple"
+  },
+  {
+    "id": 4,
+    "question": "How many Harry Potter books are there?",
+    "options": ["1", "4", "6", "7"],
+    "explanation": "There are 7 Harry Potter books",
+    "answer": "7"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "options": ["Paris", "Lisbon", "Madrid", "Dublin"],
+    "explanation": "The capital of Spain is Madrid",
+    "answer": "Madrid"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "options": ["Rome", "Milan", "Venice", "Florence"],
+    "explanation": "The capital of Italy is Rome",
+    "answer": "Rome"
+  }
+]

@@ -39,7 +39,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
 
     #form-player input {
@@ -220,5 +220,20 @@ body {
         border-radius:20px ;
         padding: 5px;
         width: 50vw;
+    }
+
+    #go-to-quiz {
+        margin-top: 5vh;
+        background-color: white;
+        color: black;
+        border: 2px solid #0fbf00;
+        border-radius:20px ;
+        padding: 5px;
+        width: 50vw;
+    }
+
+    #go-to-quiz:active {
+        background-color: #0fbf00;
+        color: white;
     }
 }

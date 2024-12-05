@@ -10,6 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     });
 
+    const goToQuizButton = document.getElementById('go-to-quiz');
+
+    goToQuizButton.addEventListener('click', () => {
+        window.location.href = 'quizz.html';
+    });
+
     players
         .filter(player => player.name !== 'Unknown Player')
         .sort((a, b) => b.score - a.score)
