@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la capitale de la France ?",
+    "options": ["Paris", "Londres", "Berlin", "Madrid"],
+    "answer": "Paris",
+    "explanation": "Paris est la capitale de la France."
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la plus grande planète du système solaire ?",
+    "options": ["Terre", "Mars", "Jupiter", "Venus"],
+    "answer": "Jupiter",
+    "explanation": "Jupiter est la plus grande planète du système solaire."
+  },
+  {
+    "id": 3,
+    "question": "Qui a peint la Joconde ?",
+    "options": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Monet"],
+    "answer": "Léonard de Vinci",
+    "explanation": "La Joconde a été peinte par Léonard de Vinci."
+  }
+]

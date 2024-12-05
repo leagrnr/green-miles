@@ -22,12 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     players.forEach(player => {
+        const score = localStorage.getItem(`${player.id}-score`) || 0;
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${player.name}</td>
             <td>
                 <button class="decrease" data-id="${player.id}">-</button>
-                <span id="${player.id}-score">0</span>
+                <span id="${player.id}-score">${score}</span>
                 <button class="increase" data-id="${player.id}">+</button>
             </td>
         `;
@@ -73,5 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
         incrementValue = 100;
         set100Button.classList.add('active');
         set25Button.classList.remove('active');
+    });
+
+    const malusButton = document.getElementById('malus');
+    malusButton.addEventListener('click', () => {
+        window.location.href = 'malus.html';
     });
 });

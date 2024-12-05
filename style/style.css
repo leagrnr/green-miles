@@ -31,6 +31,10 @@ body {
         margin-bottom: 5vh;
     }
 
+    input[type="text"] {
+        height: 2vh;
+    }
+
     #form-player {
         display: flex;
         flex-direction: column;
@@ -136,6 +140,25 @@ body {
         width: 40%;
     }
 
+    button.active {
+        background-color: #0fbf00;
+        color: white;
+    }
+
+    button#malus {
+        margin-top: 2vh;
+        background-color: white;
+        border: 2px solid #da2323;
+        border-radius:20px ;
+        padding: 5px;
+        width: 40%;
+    }
+
+    button#malus:active {
+        background-color: #da2323;
+        color: white;
+    }
+
     span[id$="-score"] {
         display: inline-block;
         width: 50px;
@@ -156,5 +179,46 @@ body {
 
     #podium-tbody tr {
         animation: slideIn 0.5s ease-out;
+    }
+
+    #go-to-quizz, #penalty {
+        margin-top: 5vh;
+    }
+
+    .options {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .options button {
+        background-color: white;
+        color: black;
+        border: 2px solid #0fbf00;
+        border-radius:20px ;
+        padding: 5px;
+        width: 50vw;
+    }
+
+    .explanation {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #redirect-button {
+        margin-top: 5vh;
+        background-color: white;
+        color: black;
+        border: 2px solid #0fbf00;
+        border-radius:20px ;
+        padding: 5px;
+        width: 50vw;
     }
 }
