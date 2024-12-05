@@ -236,4 +236,31 @@ body {
         background-color: #0fbf00;
         color: white;
     }
+
+    .gratitude {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .gratitude h1, .gratitude p {
+        width: 80vw;
+    }
+
+    #restart-game {
+        background-color: white;
+        color: black;
+        border: 2px solid #0fbf00;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 5vh;
+    }
+
+    #restart-game:active {
+        background-color: #0fbf00;
+        color: white;
+    }
 }

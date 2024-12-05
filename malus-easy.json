@@ -1,23 +1,107 @@
 [
   {
     "id": 1,
-    "question": "Quelle est la capitale de la France ?",
-    "options": ["Paris", "Londres", "Berlin", "Madrid"],
-    "answer": "Paris",
-    "explanation": "Paris est la capitale de la France."
+    "question": "Which gas is most responsible for trapping heat in Earth's atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Helium"],
+    "answer": "Carbon Dioxide",
+    "explanation": "CO₂ is the primary greenhouse gas emitted by human activities, particularly from fossil fuel combustion."
   },
   {
     "id": 2,
-    "question": "Quelle est la plus grande planète du système solaire ?",
-    "options": ["Terre", "Mars", "Jupiter", "Venus"],
-    "answer": "Jupiter",
-    "explanation": "Jupiter est la plus grande planète du système solaire."
+    "question": "What is the main cause of global warming?",
+    "options": ["Deforestation", "Burning of fossil fuels", "Volcanic eruptions", "Overfishing"],
+    "answer": "Burning of fossil fuels",
+    "explanation": "Burning coal, oil, and natural gas releases large amounts of carbon dioxide (CO₂), which traps heat in the atmosphere and contributes to global warming."
   },
   {
     "id": 3,
-    "question": "Qui a peint la Joconde ?",
-    "options": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Monet"],
-    "answer": "Léonard de Vinci",
-    "explanation": "La Joconde a été peinte par Léonard de Vinci."
+    "question": "What percentage of the Earth's surface is covered by water?",
+    "options": ["50%", "60%", "71%", "85%"],
+    "answer": "71%",
+    "explanation": "About 71% of Earth's surface is covered by oceans, lakes, and other bodies of water, making it a \"blue planet.\""
+  },
+  {
+    "id": 4,
+    "question": "Which renewable energy source generates electricity using flowing water?",
+    "options": ["Solar power", "Geothermal energy", "Hydropower", "Wind power"],
+    "answer": "Hydropower",
+    "explanation": "Hydropower uses the energy of flowing or falling water to generate electricity, typically through dams or turbines."
+  },
+  {
+    "id": 5,
+    "question": "What is the largest rainforest in the world?",
+    "options": ["Amazon Rainforest", "Congo Rainforest", "Borneo Rainforest", "Daintree Rainforest"],
+    "answer": "Amazon Rainforest",
+    "explanation": "The Amazon Rainforest is the largest tropical rainforest in the world, covering an area of approximately 5.5 million square kilometers."
+  },
+  {
+    "id": 6,
+    "question": "What is the term for species that are at risk of extinction?",
+    "options": ["Endemic species", "Keystone species", "Endangered species", "Exotic species"],
+    "answer": "Endangered species",
+    "explanation": "Endangered species are those that are at risk of extinction due to factors such as habitat loss, poaching, and climate change."
+  },
+  {
+    "id": 7,
+    "question": "What is the process by which plants convert sunlight into energy?",
+    "options": ["Respiration", "Photosynthesis", "Fermentation", "Transpiration"],
+    "answer": "Photosynthesis",
+    "explanation": " During photosynthesis, plants use sunlight to convert carbon dioxide and water into glucose and oxygen, providing energy for growth."
+  },
+  {
+    "id": 8,
+    "question": "What is the primary source of energy for life on Earth?",
+    "options": ["Fossil fuels", "The Moon", "The Sun", "Geothermal energy"],
+    "answer": "The Sun",
+    "explanation" : "Glass bottles can take millions of years to break down naturally, as glass is highly durable and inert."
+  },
+  {
+    "id": 9,
+    "question": "What is the most common source of marine pollution?",
+    "options": ["Plastic waste", "Oil spills", "Sewage discharge", "Chemical runoff"],
+    "answer": "Plastic waste",
+    "explanation": "Plastic pollution is the most pervasive in oceans, harming marine life and ecosystems due to its non-biodegradable nature."
+  },
+  {
+      "id": 10,
+      "question": "Which country is home to the most diverse ecosystems?",
+      "options": ["Brazil", "Australia", "Indonesia", "South Africa"],
+      "answer": "Brazil",
+      "explanation": "Brazil, home to the Amazon Rainforest, is known for its exceptional biodiversity in plants, animals, and ecosystems."
+  },
+  {
+    "id": 11,
+    "question": "What is the significance of the Paris Agreement?",
+    "options": ["It regulates international trade", "It addresses ocean conservation", "It aims to limit global warming to below 2°C", " It bans fossil fuel usage globally"],
+    "answer": "It aims to limit global warming to below 2°C",
+    "explanation": "The Paris Agreement is an international treaty that aims to limit global warming to well below 2°C above pre-industrial levels, to reduce the risks and impacts of climate change."
+  },
+  {
+    "id": 12,
+    "question": "What is the \"Greenhouse Effect\" ?",
+    "options": ["The growth of plants in glasshouses", "The trapping of heat by Earth's atmosphere", "Increased sunlight due to deforestation", "The cooling of Earth during volcanic eruptions"],
+    "answer": "The trapping of heat by Earth's atmosphere",
+    "explanation": "The Greenhouse Effect occurs when gases like carbon dioxide and methane trap heat in the atmosphere, keeping Earth warm enough to support life."
+  },
+  {
+    "id": 13,
+    "question": "What percentage of Earth's water is freshwater?",
+    "options": ["2.5%", "10%", "25%", "50%"],
+    "answer": "2.5%",
+    "explanation": " Only 2.5% of the Earth’s water is freshwater, and most of it is locked in glaciers and underground aquifers."
+  },
+  {
+    "id": 14,
+    "question": "What is the main environmental threat to the Great Barrier Reef?",
+    "options": ["Overfishing", "Rising sea levels", "Ocean acidification and warming", "Shipping traffic"],
+    "answer": "Ocean acidification and warming",
+    "explanation": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Australia. It supports diverse marine life and provides vital ecological benefits."
+  },
+  {
+    "id": 15,
+    "question": "What is the environmental impact of microplastics?",
+    "options": ["They damage ozone layers", "They emit harmful gases when burned", "They harm marine life and enter the food chain", "They create large landfill piles"],
+    "answer": "They harm marine life and enter the food chain",
+    "explanation": "Microplastics are tiny plastic particles that pollute oceans, harming marine organisms and potentially affecting human health through the food chain."
   }
 ]

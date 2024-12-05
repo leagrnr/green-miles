@@ -1,9 +1,107 @@
 [
   {
-    "id" : 4,
-    "question" : "Quelle est la capitale de l'Espagne ?",
-    "options" : ["Paris", "Londres", "Berlin", "Madrid"],
-    "answer" : "Madrid",
+    "id" : 1,
+    "question" : "What is the primary cause of ocean acidification ?",
+    "options" : ["Oil spills", "Deforestation", "Carbon Dioxyde", "Plastic"],
+    "answer" : "Carbon Dioxyde",
     "explanation" : "Madrid est la capitale de l'Espagne."
+  },
+  {
+    "id" : 2,
+    "question" : "What is the primary purpose of planting mangroves along coastlines?",
+    "options" : ["To provide timber for construction", "To reduce soil salinity", "To protect against coastal erosion", "To attract marine life"],
+    "answer" : "To protect against coastal erosion",
+    "explanation" : "Mangroves stabilize shorelines, reduce wave energy, and provide a natural barrier against erosion and storms."
+  },
+  {
+    "id" : 3,
+    "question" : "What is the main component of air pollution in cities?",
+    "options" : ["Carbon Monoxide", "Lead", "Particulate matter (PM2.5)", "Ozone"],
+    "answer" : "Particulate matter (PM2.5)",
+    "explanation" : "Particulate matter (PM2.5) consists of tiny particles suspended in the air, which can penetrate deep into the lungs and cause respiratory and cardiovascular problems."
+  },
+  {
+    "id" : 4,
+    "question" : "Which ocean is the Great Pacific Garbage Patch located in?",
+    "options" : ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer" : "Pacific Ocean",
+    "explanation" : "The Great Pacific Garbage Patch is a massive collection of marine debris, mainly plastics, concentrated by ocean currents."
+  },
+  {
+    "id" : 5,
+    "question" : "Which of these materials takes the longest to decompose?",
+    "options" : ["Paper", "Plastic", "Aluminum", "Glass"],
+    "answer" : "Glass",
+    "explanation" : "Glass bottles can take millions of years to break down naturally, as glass is highly durable and inert."
+  },
+  {
+    "id" : 6,
+    "question" : " What type of farming reduces soil erosion and water loss?",
+    "options" : ["Intensive farming", "Monoculture farming", "Organic farming", "Conservation farming"],
+    "answer" : "Conservation farming",
+    "explanation" : "Conservation farming involves techniques like no-till farming and cover crops to preserve soil health and reduce erosion."
+  },
+  {
+    "id" : 7,
+    "question" : "Which human activity causes the most deforestation worldwide?",
+    "options" : ["Urban development", "Logging for furniture", "Agriculture and livestock farming", "Tourism"],
+    "answer" : "Agriculture and livestock farming",
+    "explanation" : "Expanding farmland and grazing areas is the leading driver of deforestation, particularly in tropical regions."
+  },
+  {
+    "id" : 8,
+    "question" : "Which layer of the Earth's atmosphere contains the ozone layer?",
+    "options" : ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "answer" : "Stratosphere",
+    "explanation" : "The ozone layer is located in the stratosphere, where it absorbs and scatters harmful ultraviolet radiation from the sun."
+  },
+  {
+    "id" : 9,
+    "question" : "What is the main purpose of the Kyoto Protocol?",
+    "options" : ["To reduce greenhouse gas emissions", "To protect endangered species", "To regulate international trade", "To ban plastic use globally"],
+    "answer" : "To reduce greenhouse gas emissions",
+    "explanation" : "The Kyoto Protocol is an international treaty aimed at reducing greenhouse gas emissions to combat climate change."
+  },
+  {
+    "id" : 10,
+    "question" : "What is \"eutrophication\"",
+    "options" : ["The growth of coral reefs", "Excessive nutrient buildup in water", "The melting of glaciers", "The expansion of deserts"],
+    "answer" : "Excessive nutrient buildup in water",
+    "explanation" : "Eutrophication occurs when excess nutrients like nitrogen and phosphorus enter water bodies, leading to algal blooms and oxygen depletion."
+  },
+  {
+    "id" : 11,
+    "question" : "Which of these species is considered a \"keystone species\"?",
+    "options" : ["Tiger", "Coral", "Elephant", "All of the above"],
+    "answer" : "All of the above",
+    "explanation" : "Keystone species play a crucial role in maintaining the structure and function of an ecosystem, often disproportionately to their abundance."
+  },
+  {
+    "id" : 12,
+    "question" : "What is the largest source of freshwater on Earth?",
+    "options" : ["Lakes", "Rivers", "Glaciers and ice caps", "Underground aquifers"],
+    "answer" : "Glaciers and ice caps",
+    "explanation" : "Most of the Earth's freshwater is stored in glaciers and ice caps, primarily in Antarctica and Greenland."
+  },
+  {
+    "id" : 13,
+    "question" : "Which of the following is the most sustainable seafood choice?",
+    "options" : ["Farmed shrimp", "Overfished tuna", "Wild-caught salmon (certified)", "Imported swordfish"],
+    "answer" : "Wild-caught salmon (certified)",
+    "explanation" : " Certified sustainable seafood is harvested responsibly, ensuring fish populations remain healthy and ecosystems are protected."
+  },
+  {
+    "id" : 14,
+    "question" : "What is the term for the warming of oceans that leads to the death of coral reefs?",
+    "options" : ["Coral starvation", "Coral bleaching", "Coral erosion", "Coral suffocation"],
+    "answer" : "Coral bleaching",
+    "explanation" : "Coral bleaching occurs when warm water stresses corals, causing them to expel the symbiotic algae they rely on for energy, often leading to coral death."
+  },
+  {
+    "id" : 15,
+    "question" : "Which country generates the highest percentage of its electricity from renewable sources?",
+    "options" : ["United States", "Iceland", "India", "Germany"],
+    "answer" : "Iceland",
+    "explanation" : "Iceland generates almost all its electricity from renewable sources, primarily geothermal and hydropower."
   }
 ]
